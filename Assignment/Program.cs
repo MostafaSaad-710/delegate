@@ -64,7 +64,7 @@
     //Built-in Delegate
     public class LibraryEngine
     {
-        public static void ProcessBooks(List<Book> bList, Func<Book, string> fPtr)
+        public static void ProcessBooks(List<Book> bList, Func<Book , string> fPtr)
         {
             foreach (Book B in bList)
                 Console.WriteLine(fPtr(B));
@@ -79,7 +79,7 @@
         {
             // PART 02
 
-            #region  PART 02
+            s#region  PART 02
 
             //List<Book> books = new List<Book>
             //{
